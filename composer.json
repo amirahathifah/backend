@@ -1,0 +1,13 @@
+{
+    "require": {
+        "symfony/console": "^5.4",
+        "guzzlehttp/guzzle": "~6.0",
+        "symfony/finder": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Osky\\": "src/"
+        },
+        "classmap": ["src"]
+    }
+}
